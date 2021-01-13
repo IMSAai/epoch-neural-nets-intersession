@@ -8,10 +8,36 @@ While these notebooks may run on environments outside of Colab, they do use some
 
 These notebooks assume that someone has *no Calculus experience*. While this means that we explain some things like backprop, gradient descent, etc. in easier-to-understand ways, it also means that we can't go as deep into ML math (like "Why is this activation function not a good idea for this purpose" or "What is the vanishing gradient problem?"). The curriculum is written assuming knowledge of MI4, so we can't explain those. For those who have a working knowledge of calculus, i.e. have taken at least BC1, preferably BC2 as well, and some intuition of how MVC might work, you may benefit from additional instruction in some ML/CS theory. The [ML Cheatsheet](https://ml-cheatsheet.readthedocs.io/en/latest/) is a good resource for those interested.
 
-## Day 1
+# Schedule
+
+## Day 1 - Introduction
 
 * [What is a Neural Network?](what_is_a_neural_network.ipynb)
   * NN vs. ML vs. AI vs. Deep Learning
   * Goes over some of the mathematical concepts behind neural networks
   * Explain in depth how linear/dense neurons work
   * Implement an MNIST-classifying NN using just numpy
+
+## Day 2 - Implementing real-world neural networks
+
+* Introduce [PyTorch](https://pytorch.org/)
+    * Reduces a lot of the overhead of writing ML from "scratch"
+    * Allows you to focus on ML concepts instead of the code itself
+* [Implement MNIST classifier MLP in PyTorch](mlp-mnist-classifier.ipynb)
+  * Lot faster and more convenient than writing in numpy
+* [Introduce Convolutional Neural Networks (CNNs)](what-is-cnn.ipynb)
+* [MNIST Classifier using CNNs](cnn-mnist-classifier.ipynb)
+
+## Day 3 - A deeper dive
+
+* Discuss various architectures
+  * Discuss Bayes' theorem as a precursor to so much of ML
+  * [Variational Autoencoders](archs/variational-ae.ipynb) for text classification
+  * [GANs](archs/gan.ipynb) for creation of novel content
+
+* The ethics of AI
+  * Privacy & Surveillance
+  * Manipulation of Behaviour
+  * "Black Box" AI
+  * Bias
+  * Singularity
