@@ -32,7 +32,7 @@ These notebooks assume that someone has *no Calculus experience*. While this mea
 
 * Discuss various architectures
   * Discuss Bayes' theorem as a precursor to so much of ML
-  * [Variational Autoencoders](archs/variational-ae.ipynb) for text classification
+  * [Variational Autoencoders](archs/variational-ae.ipynb) to reduce latent space
   * [GANs](archs/gan.ipynb) for creation of novel content
 
 * The ethics of AI
