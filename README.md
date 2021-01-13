@@ -12,7 +12,7 @@ These notebooks assume that someone has *no Calculus experience*. While this mea
 
 ## Day 1 - Introduction
 
-* [What is a Neural Network?](what_is_a_neural_network.ipynb)
+* [What is a Neural Network?](day-1/what_is_a_neural_network.ipynb)
   * NN vs. ML vs. AI vs. Deep Learning
   * Goes over some of the mathematical concepts behind neural networks
   * Explain in depth how linear/dense neurons work
@@ -23,17 +23,17 @@ These notebooks assume that someone has *no Calculus experience*. While this mea
 * Introduce [PyTorch](https://pytorch.org/)
     * Reduces a lot of the overhead of writing ML from "scratch"
     * Allows you to focus on ML concepts instead of the code itself
-* [Implement MNIST classifier MLP in PyTorch](mlp-mnist-classifier.ipynb)
+* [Implement MNIST classifier MLP in PyTorch](day-2/mlp-mnist-classifier.ipynb)
   * Lot faster and more convenient than writing in numpy
-* [Introduce Convolutional Neural Networks (CNNs)](what-is-cnn.ipynb)
-* [MNIST Classifier using CNNs](cnn-mnist-classifier.ipynb)
+* [Introduce Convolutional Neural Networks (CNNs)](day-2/what-is-cnn.ipynb)
+* [MNIST Classifier using CNNs](day-2/cnn-mnist-classifier.ipynb)
 
 ## Day 3 - A deeper dive
 
 * Discuss various architectures
   * Discuss Bayes' theorem as a precursor to so much of ML
-  * [Variational Autoencoders](archs/variational-ae.ipynb) for text classification
-  * [GANs](archs/gan.ipynb) for creation of novel content
+  * [Variational Autoencoders](day-3/archs/variational-ae.ipynb) for text classification
+  * [GANs](day-3/archs/gan.ipynb) for creation of novel content
 
 * The ethics of AI
   * Privacy & Surveillance
