@@ -42,3 +42,6 @@ These notebooks assume that someone has *no Calculus experience*. While this mea
   * Bias
   * Singularity
   
+* [Machine learning Frameworks](day-3/machine-learning-frameworks.ipynb)
+
+  
