@@ -35,9 +35,10 @@ These notebooks assume that someone has *no Calculus experience*. While this mea
   * [Variational Autoencoders](day-3/archs/variational-ae.ipynb) for text classification
   * [GANs](day-3/archs/gan.ipynb) for creation of novel content
 
-* The ethics of AI
+* The [ethics of AI](day-3/ethics-in-ai.ipynb)
   * Privacy & Surveillance
   * Manipulation of Behaviour
   * "Black Box" AI
   * Bias
   * Singularity
+  
